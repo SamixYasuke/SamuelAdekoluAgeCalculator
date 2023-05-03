@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:wght@400;500;600;700;800&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+body{
+    background-color:hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+}
+
+section{
+    background-color: hsl(0, 0%, 100%);
+    height: 450px;
+    width: 47vw;
+    border-radius: 20px 20px 120px 20px;
+    margin: 0 auto;
+}
+
+input{
+    width: 80%;
+    height: 46px;
+    border-radius: 8px;
+    border-color:  hsl(0, 0%, 82%);
+    border-style: solid;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+form div{
+    padding-left: 40px;
+}
+
+p{
+    font-size: x-small;
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+
+hr{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.button{
+    background-color: hsl(259, 100%, 65%);
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 12%;
+    left: 80%;
+}
+
+.button:hover{
+    background-color: hsl(0, 0%, 0%);
+    cursor: pointer;
+}
+
+img{
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+h6{
+    color: grey;
+    font-size: x-small;
+}
+
+.result{
+    margin-top: 20px;
+    transform: translateY(-100px);
+    margin-left: 30px;
+}
+
+.purpleText{
+    color: hsl(259, 100%, 65%);
+}
+
+.errorDisplay{
+    display: block!important;
+}
+
+
+.errorTextLight{
+    color: rgb(255, 115, 115);
+}
+
+.errorText{
+    color: rgb(255, 86, 86);
+}
+
+.errorBorder{
+    border-color: rgb(250, 165, 165);
+}
+
+@media (max-width: 1029px) {
+    section{
+        background-color: hsl(0, 0%, 100%);
+        height: 490px;
+        width: 55vw;
+        border-radius: 20px 20px 120px 20px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 873px) {
+    section{
+        background-color: hsl(0, 0%, 100%);
+        height: 490px;
+        width: 70vw;
+        border-radius: 20px 20px 120px 20px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 686px) {
+    section{
+        background-color: hsl(0, 0%, 100%);
+        height: 490px;
+        width: 80vw;
+        border-radius: 20px 20px 120px 20px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    section{
+        background-color: hsl(0, 0%, 100%);
+        height: 490px;
+        width: 90vw;
+        border-radius: 20px 20px 120px 20px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 510px) {
+    section{
+        background-color: hsl(0, 0%, 100%);
+        height: 490px;
+        width: 92vw;
+        border-radius: 20px 20px 120px 20px;
+        margin: 0 auto;
+    }
+
+    .button{
+        background-color: hsl(259, 100%, 65%);
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 9%;
+        left: 40%;
+    }
+
+    img{
+        height: 34px;
+        position: relative;
+        top: 14px;
+        left: 11px;
+    }
+
+    .result{
+        margin-top: 90px;
+        transform: translateY(-100px);
+        margin-left: 30px;
+    }
+
+}
